@@ -227,7 +227,10 @@ ul.large {
 }
 
 .large sup {
-    font-size:20px;
+    font-size: 21px;
+    word-spacing: 4px;
+    font-weight: 400;
+    letter-spacing: .5px;
 }
 
 #conclusion {
