@@ -230,6 +230,10 @@ ul.large {
     font-size:20px;
 }
 
+#conclusion {
+    line-height:125%;
+}
+
 
 #overview { display: none }
 
@@ -290,5 +294,31 @@ ul.large {
 
 .impress-enabled          { pointer-events: none }
 .impress-enabled #impress { pointer-events: auto }
+
+#rick_fool {
+    width: auto;
+    background: #fff;
+    border: 1px solid #fff;
+    -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+    -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+    color: #E31D38;
+    cursor: pointer;
+    display: inline-block;
+    font-family: inherit;
+    font-weight:100;
+    font-size: 60px;
+    font-weight: bold;
+    line-height: 1;
+    margin: 0;
+    padding: 10px 20px 11px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    -webkit-transition: background-color 0.15s ease-in-out;
+    -moz-transition: background-color 0.15s ease-in-out;
+    -o-transition: background-color 0.15s ease-in-out;
+    transition: background-color 0.15s ease-in-out;
+}
 
 
