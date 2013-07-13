@@ -182,6 +182,31 @@ img.circle {
     float:left;
 }
 
+img.circle_small {
+    width: 150px;
+    height: 150px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+}
+
+.img_small {
+    width: 180px;
+    height: 180px;
+    float:left;
+    display:inline-block;
+    font-size:20px;
+    text-align:center;
+    font-weight:300;
+    line-height:100%;
+    margin-top:20px;
+}
+
+.img_small p {
+    margin-top:10px;
+}
+
+
 img.circle2 {
     width: 500px;
     height: 500px;
@@ -237,14 +262,12 @@ ul.large {
     line-height:125%;
 }
 
-
 #overview { display: none }
 
 .impress-on-overview .step {
     opacity: 1;
     cursor: pointer;
 }
-
 
 .hint {
     display: none;
@@ -274,9 +297,7 @@ ul.large {
     transition:         opacity 1s,         transform 0.5s 1s;
 }
 
-
 .impress-enabled .hint { display: block }
-
 
 .impress-on-bored .hint {
 
@@ -323,5 +344,4 @@ ul.large {
     -o-transition: background-color 0.15s ease-in-out;
     transition: background-color 0.15s ease-in-out;
 }
-
 
